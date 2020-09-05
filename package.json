@@ -1,6 +1,6 @@
 {
   "name": "google-maps-react",
-  "version": "2.0.3",
+  "version": "2.0.6",
   "description": "Google maps container",
   "author": "Fullstack.io <us@fullstack.io>",
   "license": "MIT",
@@ -17,6 +17,7 @@
     "index.d.ts"
   ],
   "types": "index.d.ts",
+  "sideEffects": false,
   "scripts": {
     "prepublish": "./scripts/prepublish.sh",
     "preversion": ". ./scripts/prepublish.sh",
@@ -33,7 +34,7 @@
     "@types/googlemaps": "^3",
     "@types/react": "^15.0.0",
     "autoprefixer": "^6.3.6",
-    "babel-cli": "^6.7.7",
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.7.4",
     "babel-eslint": "^6.0.2",
     "babel-loader": "^6.2.4",
